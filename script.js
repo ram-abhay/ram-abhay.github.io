@@ -17,9 +17,9 @@ var canvas = document.getElementById('canvas'),
 		x: 0,
 		y: 0
 	},
-	size = 10,
-	h = 50,
-	w = 50
+	size = 5,
+	h = 35,
+	w = 35
 	var CursorMode = 0;
 window.addEventListener('resize', function() {
 	canvas.width = window.innerWidth

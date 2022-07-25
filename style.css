@@ -10,7 +10,9 @@ body {
 	margin: 0;
 	overflow: hidden;
     background: #710106;
-    
+    display: flex;
+  	align-items: center;
+  	justify-content: center;
 }
 
 canvas{
@@ -26,12 +28,18 @@ canvas{
 }
 
 
-
+.logo{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 30%;
+	max-width: 300px;
+}
 
 
 .content {
 	position: fixed;
-    top: 42%;
+    top: 45%;
     left: 50%;
     
 }
@@ -41,12 +49,12 @@ canvas{
 	font-size: 9vw;
 	position: absolute;
 	transform: translate(-50%, -50%);
-    -webkit-text-stroke: 0.4vw #35322b;
+    -webkit-text-stroke: 0.4vw #201f1a;
 }
 
 .content h2:nth-child(1) {
 	color: #fdf0d5;
-	-webkit-text-stroke: 0.4vw #35322b;
+	-webkit-text-stroke: 0.4vw #201f1a;
     
 }
 
@@ -86,3 +94,63 @@ canvas{
 		);
 	}
 }
+
+
+a {
+	color: #C0FF00;
+  }
+  
+  section {
+	max-width: 50%;
+	text-align: center;
+  }
+  
+  h1 {
+	font-size: 10em;
+	font-weight: 600;
+	letter-spacing: 0.02em
+  }
+  
+  ul {
+	list-style-type: none;
+	display: flex;
+	position: fixed;
+	top: 48%;
+	margin: 4vw 0;
+  }
+  
+  li {
+	flex-grow: 1;
+  }
+  
+  li a {
+	display: block;
+	width: 6vw;
+	height: 10vh;
+	background-repeat: no-repeat;
+	background-size: 50%;
+	text-indent: -9999em;
+	margin: 0 auto;
+	opacity: .5;
+	transition: opacity .25s ease-in-out;
+  }
+  
+  li a:hover {
+	opacity: 1;
+  }
+  
+  .discord {
+	background-image: url(./icons/discord.svg);
+  }
+  .webpage {
+	background-image: url(./icons/info.svg);
+  }
+  .github {
+	background-image: url(./icons/github.svg);
+  }
+  .instagram {
+	background-image: url(./icons/instagram.svg);
+  }
+  .email {
+	background-image: url(./icons/mail.svg);
+  }
