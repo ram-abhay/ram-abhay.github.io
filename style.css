@@ -1,4 +1,17 @@
 body {
 	margin: 0;
 	overflow: hidden;
+	
+}
+
+canvas{
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:-1;
+}
+
+.responsive {
+	width: 10%;
+	max-width: 15%
 }
