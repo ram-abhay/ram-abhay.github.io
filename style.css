@@ -12,6 +12,6 @@ canvas{
 }
 
 .responsive {
-	width: 10%;
-	max-width: 15%
+	width: 15%;
+	max-width: 100px;
 }
