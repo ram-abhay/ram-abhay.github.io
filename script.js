@@ -37,7 +37,7 @@ window.addEventListener('mousemove', function(e) {
 	mouse.y = e.clientY
 	resetMode = 0;
 	if(CursorMode<1){
-		CursorMode = CursorMode + 0.01;
+		CursorMode = CursorMode + 0.003;
 	}
 
 	clearTimeout(timer);
@@ -172,7 +172,7 @@ window.requestAnimFrame = (function() {
 	
 	
 	if(resetMode == 1 & CursorMode > 0){
-		CursorMode = CursorMode - 0.01;
+		CursorMode = CursorMode - 0.003;
 	}
 
 	render()
