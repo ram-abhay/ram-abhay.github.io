@@ -31,7 +31,7 @@ canvas{
 
 .content {
 	position: fixed;
-    top: 45%;
+    top: 42%;
     left: 50%;
     
 }
@@ -41,17 +41,17 @@ canvas{
 	font-size: 9vw;
 	position: absolute;
 	transform: translate(-50%, -50%);
-    -webkit-text-stroke: 0.4vw #290000;
+    -webkit-text-stroke: 0.4vw #35322b;
 }
 
 .content h2:nth-child(1) {
-	color: #710106;
-	-webkit-text-stroke: 0.4vw #290000;
+	color: #fdf0d5;
+	-webkit-text-stroke: 0.4vw #35322b;
     
 }
 
 .content h2:nth-child(2) {
-	color: #C0B79C;
+	color: #ca4a39;
 	animation: animate 4s ease-in-out infinite;
     
 }

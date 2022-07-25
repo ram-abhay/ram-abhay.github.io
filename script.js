@@ -105,7 +105,7 @@ function render() {
 	
 	ctx.clearRect(0, 0, canvas.width, canvas.height)
 
-	ctx.fillStyle = "#710106"
+	ctx.fillStyle = "#7C0A02"
 	ctx.fillRect((0), (0), (canvas.width), (canvas.height))
 
 	for (var i = 0; i < points.length; i++) {
@@ -135,7 +135,7 @@ function render() {
 		
 		ctx.beginPath()
 		ctx.arc(point.x, point.y, newScale, 0, 2*Math.PI, false)
-		ctx.fillStyle = "#C0B79C";
+		ctx.fillStyle = "#D1C097";
 		ctx.fill()
 		
 	}
