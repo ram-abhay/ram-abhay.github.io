@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="de">
   
 <head>
   <meta charset="UTF-8">
@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="./animate.css">
   <link rel="icon" type="image/png" href="./images/initaltransparent.png">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
 </head>
 
 <body>
@@ -21,21 +22,40 @@
   <img src="./images/initaltransparent.png" alt="" class="logo">
 </div>
 
-<div class="content">
+<div class="content animate__zoomIn animate__animated animate__slow">
   <h2>AbhayRam</h2>
   <h2>AbhayRam</h2>
 </div>
 
-<ul>
+
+<!-- OLD BUTTONS -->
+<!-- <ul>
   <li><a href="mailto://abhay.ram@outlook.de" class="email">Email</a></li>
   <li><a href="https://discordapp.com/users/ramspeicher#5449" class="discord">discord</a></li>
   <li><a href="https://github.com/ram-abhay" class="github">Github</a></li>
   <li><a href="https://instagram.com/_ramspeicher" class="instagram">Instagram</a></li>
   <li><a href="https://pagetesting.ramabhay.com" class="webpage">webpage</a></li>
-</ul>
-  
+</ul> -->
 
-
+<section>
+  <ul class="icon-list">
+    <li class="icon-item animate__animated animate__zoomInUp animate__slow ">
+      <a href="mailto://abhay.ram@outlook.de" class="icon-link"><i class="fas fa-envelope"></i></a>
+    </li>
+    <li class="icon-item animate__animated animate__zoomInUp animate__slow animate__delay-1s">
+      <a href="https://discordapp.com/users/ramspeicher#5449" class="icon-link"><i class="fab fa-discord"></i></a>
+    </li>
+    <li class="icon-item animate__animated animate__zoomInUp animate__slow animate__delay-2s">
+      <a href="https://github.com/ram-abhay" class="icon-link"><i class="fab fa-github-square"></i></a>
+    </li>
+    <li class="icon-item animate__animated animate__zoomInUp animate__slow animate__delay-3s">
+      <a href="https://instagram.com/_ramspeicher" class="icon-link"><i class="fab fa-instagram"></i></a>
+    </li>
+    <li class="icon-item animate__animated animate__zoomInUp animate__slow animate__delay-4s">
+      <a href="https://pagetesting.ramabhay.com" class="icon-link"><i class="fas fa-info-circle"></i></a>
+    </li>    
+  </ul>
+</section>
 
 
 <canvas id="canvas"></canvas>
