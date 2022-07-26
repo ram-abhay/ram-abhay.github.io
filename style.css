@@ -205,7 +205,7 @@ a {
   }
   
   .icon-link:hover {
-	color: #fff;
+	color: rgb(255, 255, 255);
   }
   
   .icon-link i {
@@ -221,15 +221,15 @@ a {
 	bottom: 0;
 	width: 5vh;
 	height: 5vh;
-	background: #000;
+	background: rgb(65, 15, 15);
 	border-radius: 50%;
 	z-index: -1;
-	transform: scale(0);
+	transform: scale(0.9);
 	transition: 0.3s cubic-bezier(.95, .32, .37, 1.21);
   }
 	
   .icon-link:hover::before {  
-	transform: scale(1);
+	transform: scale(1.25);
   }
   
   .icon-item:nth-child(1) a:hover:before { 
